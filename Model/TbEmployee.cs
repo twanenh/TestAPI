@@ -27,5 +27,6 @@
         public Guid AccountId { get; set; }
         //Navigation
         public virtual TbAccount Account { get; set; }
+        public virtual ICollection<TbOrder> TbOrders { get; set; } = new List<TbOrder>();
     }
 }
