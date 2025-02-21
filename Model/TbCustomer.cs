@@ -26,6 +26,7 @@
         public Guid AccountId { get; set; }
         //Navigation
         public virtual TbAccount Account { get; set; }
+        public virtual TbCart Cart { get; set; }
 
     }
 }

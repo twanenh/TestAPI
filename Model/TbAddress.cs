@@ -16,7 +16,7 @@
 
         public string? ReceiverPhone { get; set; }
         //FK
-        public Guid AccountId { get; set; };
+        public Guid AccountId { get; set; }
         //Navigation
         public virtual TbAccount? TbAccount { get; set; } 
     }

@@ -19,5 +19,6 @@
 
         public Guid? UpdateBy { get; set; }
         //Thiếu quan hệ đến bảng product do chưa rõ quan hệ
+        public virtual ICollection<TbProduct> TbProducts { get; set; } = new List<TbProduct>();
     }
 }

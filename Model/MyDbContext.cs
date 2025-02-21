@@ -11,6 +11,6 @@ namespace TestAPI.Model
         protected MyDbContext()
         {
         }
-        public DbSet<Class> Classes { get; set; }
+        //public DbSet<Class> Classes { get; set; }
     }
 }

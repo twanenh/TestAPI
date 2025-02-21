@@ -17,12 +17,14 @@
         public Guid MaterialId { get; set; }
         public Guid ShoeHeightId { get; set; }
         public Guid TechnologyId { get; set; }
+        public Guid CategoryId { get; set; }
 
         // Navigation 
         public virtual TbMaterial material { get; set; }
         public virtual TbShoeHeight shoeHeight { get; set; }
         public virtual TbTechnology technology { get; set; }
-        
+        public virtual TbCategory category { get; set; }
+
         ////Thiếu FK đến bảng Category do không rõ quan hệ
 
 
