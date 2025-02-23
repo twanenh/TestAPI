@@ -21,7 +21,7 @@ public class TbOrder
 
     [Column(TypeName = "decimal(18,2)")]
     public decimal? Discount { get; set; }
-
+    public string Address { get; set; }
     public bool? Status { get; set; }
     public int PaymentMethod { get; set; }
     public string ReceiverName { get; set; }
